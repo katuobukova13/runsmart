@@ -1,4 +1,4 @@
 # runsmart
-project with gulp, vanilla js
+project with gulp, jquery
 
 in progress
