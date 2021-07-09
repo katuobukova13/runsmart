@@ -12,6 +12,12 @@
   }
 }
 
+@media (max-width: 375px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
 @import "./base/variables";
 
 @import "./blocks/promo";
@@ -23,3 +29,6 @@
 @import "./blocks/forms";
 @import "./blocks/carousel";
 @import "./blocks/catalog";
+@import "./blocks/reviews";
+@import "./blocks/footer";
+@import "./blocks/modal";
