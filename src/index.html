@@ -87,10 +87,10 @@
         и мы перезвоним вам в течении 10 минут
       </div>
 
-      <form action="#" class="form">
-        <input name="name" required type="text" placeholder="Ваше имя" >
-        <input name="phone" required type="number" placeholder="Ваш телефон" >
-        <input name="email" required type="email" placeholder="Ваш e-mail" >
+      <form action="#" id="consultation-form" class="form">
+        <input name="name" type="text" placeholder="Ваше имя" >
+        <input name="phone" placeholder="Ваш телефон" >
+        <input name="email" type="email" placeholder="Ваш e-mail" >
 
         <button class="button button_submit">Заказать консультацию</button>
       </form>
@@ -163,7 +163,7 @@
           <div class="catalog-item__wrapper">
             <div class="catalog-item__content catalog-item__content_active">
               <img src="./img/photo.png" alt="photo" class="catalog-item__img">
-              <div class="catalog-item__subtitle">Пульсометр Suunto M2</div>
+              <div class="catalog-item__subtitle">Пульсометр Utri M0</div>
               <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
               <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
             </div>
@@ -197,7 +197,7 @@
           <div class="catalog-item__wrapper">
             <div class="catalog-item__content catalog-item__content_active">
               <img src="./img/photo.png" alt="photo" class="catalog-item__img">
-              <div class="catalog-item__subtitle">Пульсометр Suunto M2</div>
+              <div class="catalog-item__subtitle">Пульсометр Tant M1</div>
               <div class="catalog-item__desc">Для первых шагов в тренировках, основанных на сердечном ритме</div>
               <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
             </div>
@@ -294,9 +294,9 @@
       <div class="modal__desc">и мы перезвоним вам в течении 10 минут</div>
       <div class="modal__close">&times;</div>
       <form action="#" class="form form_mt25">
-        <input name="name" required type="text" placeholder="Ваше имя" >
-        <input name="phone" required type="number" placeholder="Ваш телефон" >
-        <input name="email" required type="email" placeholder="Ваш e-mail" >
+        <input name="name" type="text" placeholder="Ваше имя" >
+        <input name="phone" placeholder="Ваш телефон" >
+        <input name="email"type="email" placeholder="Ваш e-mail" >
 
         <button class="button button_submit">Заказать консультацию</button>
       </form>
@@ -307,9 +307,9 @@
       <div class="modal__desc">Пульсометр Polar FT1</div>
       <div class="modal__close">&times;</div>
       <form action="#" class="form form_mt25">
-        <input name="name" required type="text" placeholder="Ваше имя" >
-        <input name="phone" required type="number" placeholder="Ваш телефон" >
-        <input name="email" required type="email" placeholder="Ваш e-mail" >
+        <input name="name" type="text" placeholder="Ваше имя" >
+        <input name="phone" placeholder="Ваш телефон" >
+        <input name="email" type="email" placeholder="Ваш e-mail" >
 
         <button class="button button_submit">КУПИТЬ</button>
       </form>
@@ -322,10 +322,15 @@
     </div>
   </div>
 
+  <a href="#promo" class="pageup">
+    <img src="icons/up.svg" alt="up" >
+  </a>
+
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
