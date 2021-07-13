@@ -31,4 +31,12 @@
       color: $main-color;
     }
   }
+  &__icon {
+    &-heart {
+      animation: heartbeat 2s ease infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
 }
